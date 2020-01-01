@@ -69,6 +69,7 @@ function assessment(userName) {
     result = result.replace(/\{userName\}/g, userName);
     return result;
 }
+// テストコード
 // console.assert(
 //     assessment('太郎') === '次郎のいいところは決断力です。太郎がする決断にいつも助けられる人がいます。',
 //     '処理が間違っています。'
